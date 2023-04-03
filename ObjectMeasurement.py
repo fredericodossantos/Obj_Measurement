@@ -19,7 +19,7 @@ while True:
                                                 minArea=5000,filter=4) 
         if len(conts) != 0:
             biggest = conts[0][2]
-            print(biggest)
+            #print(biggest)
             utils.warpImg(img, biggest, 100 ,100)
 
 
