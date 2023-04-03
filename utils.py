@@ -47,8 +47,8 @@ def reorder(myPoints):
     return myPointsNew
 
 def warpImg(img,points,w,h):
-    print(points)    
-    print(reorder(points))
+    #print(points)    
+    points = reorder(points)
 
     pts1 = np.float32(points)
     pts2 = np.float32([[0,0],[w,0],[0,h],[w,h]])

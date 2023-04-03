@@ -8,10 +8,11 @@ cap = cv2.VideoCapture(0)
 cap.set(10, 200)
 cap.set(3, 1920)
 cap.set(4, 1080)
-wP = 210
-hP = 297
+scale = 1
+wP = 810 * scale 
+hP = 597 * scale
 
-scale = 3
+
 
 
 while True:
